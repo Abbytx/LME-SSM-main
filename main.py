@@ -58,7 +58,7 @@ def main(config):
 
     print('#----------Prepareing Model----------#')
     model_cfg = config.model_config
-    if config.network == 'vmunet':
+    if config.network == 'lmessm':
         model = lmessmNet(
             num_classes=model_cfg['num_classes'],
             input_channels=model_cfg['input_channels'],
@@ -66,6 +66,7 @@ def main(config):
             depths_decoder=model_cfg['depths_decoder'],
             drop_path_rate=model_cfg['drop_path_rate'],
             load_ckpt_path=model_cfg['load_ckpt_path'],
+            downsamps=model_cfg['downsamps']
         )
         model.load_from()
 
