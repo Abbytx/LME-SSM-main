@@ -11,7 +11,7 @@ The experimental data consists of coronary angiography video sequences of the he
 
 
 # Quick start
-We provide the code for our model here (Immediately fully publicly available). The specific model settings can be found in the article's documentation.
+We provide the code for our model here (Immediately fully publicly available after the paper is accepted). The specific model settings can be found in the article's documentation.
 Before training the model, please configure the dependencies in the `requirements.txt`. 
 
 
