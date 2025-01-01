@@ -3,10 +3,13 @@
 
 # overview
 
-![image](framework.png)
-This code is for the paper: Learning Asynchronous Common and Individual Functional Brain Network for AD Diagnosis. 
-Experimental data sourced from ADNI datasets( https://adni.loni.usc.edu/).
- 
+![image](frameworkv006.png)
+This code is for the paper: Temporally Consistent Segmentation of Main Coronary Artery in X-ray Coronary Angiography Sequences.
+The experimental data consists of coronary angiography video sequences of the heart. The data example is presented as follows:
+![image](datapic.png)
+
+
+
 # Quick start (Train and Test)
 We provide the code for our model here (`Model.py`), and training and testing code（`main.py`). The specific model settings can be found in the article's documentation.
 We have provided a sample of preprocessed fMRI participant data in the Data folder (randomly generated using Python). Please replace it with real data for the actual experiment.
