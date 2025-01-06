@@ -3,7 +3,7 @@
 
 # overview
 
-![image](frameworkv006.png)
+%![image](frameworkv006.png)
 This code is for the paper: Temporally Consistent Segmentation of Main Coronary Artery in X-ray Coronary Angiography Sequences.
 The experimental data consists of coronary angiography video sequences of the heart. The data example is presented as follows:
 ![image](datapic.png)
